@@ -13,7 +13,7 @@ This portfolio project combines interactive dashboard exports and a machine lear
 - **League tactical analysis:** build-up speed, passing patterns, and style distribution  
 - **Scouting dashboard:** player radar profiles + similar players panel  
 - **ML insights:** feature importance (“success formula”), actual vs. predicted rating analysis, and top discrepancies  
-- **Portfolio-ready visuals:** exported dashboard screenshots included below
+- **Portfolio-ready visuals:** exported dashboard screenshots included below  
 
 ---
 
@@ -23,6 +23,7 @@ This portfolio project combines interactive dashboard exports and a machine lear
 ![European Football Intelligence](./cover-european-football-intelligence.png)
 
 ### Dashboards
+
 **Tactical Analysis**  
 ![Tactical Analysis](./dashboard-tactical-analysis.png)
 
@@ -35,12 +36,14 @@ This portfolio project combines interactive dashboard exports and a machine lear
 **Player DNA**  
 ![Player DNA](./dashboard-player-dna.png)
 
-**Scouting Panel (Radar + Similar Players)**  
-![Scouting Panel](./scouting-panel-radar-and-similar-players.png)
 
 ---
 
 ## Machine Learning Outputs
+
+**Scouting Panel (Radar + Similar Players)**  
+![Scouting Panel](./scouting-panel-radar-and-similar-players.png)
+
 **Feature Importance (Success Formula)**  
 ![Feature Importance](./ml-feature-importance-success-formula.png)
 
@@ -62,32 +65,34 @@ This portfolio project combines interactive dashboard exports and a machine lear
 ---
 
 ## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SelenImahanoglu/european-football-intelligence.git
-   cd european-football-intelligence
-   Open the notebook:
 
-Jupyter: European Football.ipynb
+1) Clone the repository:
+```bash
+git clone https://github.com/SelenImahanoglu/european-football-intelligence.git
+cd european-football-intelligence
+```
 
-or upload to Google Colab
+2) Open the notebook:
+- Jupyter: `European Football.ipynb`
+- or upload it to Google Colab
 
-Install dependencies (if needed):
-
+3) Install dependencies (if needed):
+```bash
 pip install pandas numpy matplotlib scikit-learn
 # optional
 pip install xgboost
+```
 
-Notes
+---
 
-Dataset: (add Kaggle/source link here)
+## Notes
+- Dataset: *(add Kaggle/source link here)*
+- This repository is intended for portfolio/demo purposes.
 
-This repository is intended for portfolio/demo purposes.
+---
 
-Contributors
+## Contributors
+- Selen İmahanoğlu  
+- Begüm Yapıcıoğlu  
+- Erdinç Uyar
 
-Selen İmahanoğlu
-
-Begüm Yapıcıoğlu
-
-Erdinç Uyar
